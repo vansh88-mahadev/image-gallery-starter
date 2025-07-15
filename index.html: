@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FloraFrame</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🌿 FloraFrame</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="gallery.html">Gallery</a>
+    </nav>
+  </header>
+  <main>
+    <h2>Welcome to FloraFrame</h2>
+    <p>This site is a tribute to nature photography and the memory of Vansh Raina's beloved grandfather 🌼</p>
+  </main>
+  <footer>
+    <p>🌳 In Memory of RAJ — A Lover of Nature</p>
+  </footer>
+</body>
+</html>
