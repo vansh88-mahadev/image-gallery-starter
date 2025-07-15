@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About - FloraFrame</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🌿 FloraFrame</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="gallery.html">Gallery</a>
+    </nav>
+  </header>
+  <main>
+    <h2>About This Project</h2>
+    <p>This site was created to fulfill a heartfelt wish — to honor the spirit of nature and the memory of Vansh's grandfather, who dreamed of sharing beauty with the world through photography.</p>
+  </main>
+  <footer>
+    <p>Made with ❤️ for RAJ | Vansh Raina</p>
+  </footer>
+</body>
+</html>
