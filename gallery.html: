@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gallery - FloraFrame</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🌿 FloraFrame</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="gallery.html">Gallery</a>
+    </nav>
+  </header>
+  <main>
+    <h2>Nature Photography Gallery</h2>
+    <p>Photos uploaded by Vansh and visitors (pending approval).</p>
+    <div class="gallery">
+      <img src="https://source.unsplash.com/300x200/?nature,forest" alt="Nature Photo 1" />
+      <img src="https://source.unsplash.com/301x200/?bird" alt="Bird" />
+      <img src="https://source.unsplash.com/302x200/?animal" alt="Animal" />
+    </div>
+  </main>
+  <footer>
+    <p>📸 RAJ’s Picgal | Protected by Vansh Raina</p>
+  </footer>
+</body>
+</html>
