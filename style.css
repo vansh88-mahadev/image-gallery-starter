@@ -24,3 +24,24 @@ footer {
   text-align: center;
   padding: 10px;
 }
+.comments {
+  background: #ffffff;
+  padding: 20px;
+  border: 1px solid #ccc;
+  max-width: 600px;
+  margin: 20px auto;
+  border-radius: 8px;
+}
+.comments input[type="text"],
+.comments textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+}
+.comments input[type="submit"] {
+  background: #228B22;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
