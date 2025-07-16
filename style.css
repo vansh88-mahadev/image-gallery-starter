@@ -1,47 +1,93 @@
-
+/* === Global Reset & Base === */
 body {
-  font-family: Arial, sans-serif;
   margin: 0;
-  padding: 0;
-  background: #f4f4f4;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f0f9f2;
+  color: #2e2e2e;
 }
+
+/* === Header === */
 header {
-  background: #228B22;
+  background-color: #4CAF50;
   color: white;
+  padding: 15px 0;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+header h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+/* === Navigation === */
+nav {
+  background-color: #388E3C;
   padding: 10px;
   text-align: center;
 }
+
 nav a {
-  margin: 0 10px;
   color: white;
+  margin: 0 15px;
   text-decoration: none;
+  font-weight: bold;
 }
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* === Main Section === */
 main {
-  padding: 20px;
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: auto;
 }
+
+/* === Image Styles === */
+img {
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* === Footer === */
 footer {
-  background: #ddd;
-  text-align: center;
-  padding: 10px;
-}
-.comments {
-  background: #ffffff;
-  padding: 20px;
-  border: 1px solid #ccc;
-  max-width: 600px;
-  margin: 20px auto;
-  border-radius: 8px;
-}
-.comments input[type="text"],
-.comments textarea {
-  width: 100%;
-  padding: 10px;
-  margin-top: 5px;
-}
-.comments input[type="submit"] {
-  background: #228B22;
+  background-color: #2e7d32;
   color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+/* === Button Styling === */
+button {
+  background-color: #66bb6a;
   border: none;
+  color: white;
   padding: 10px 20px;
+  border-radius: 6px;
   cursor: pointer;
+}
+
+button:hover {
+  background-color: #558b2f;
+}
+
+/* === Sections === */
+section {
+  margin-bottom: 40px;
+}
+
+/* === Responsive === */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 1.5rem;
+  }
+
+  nav a {
+    display: inline-block;
+    margin: 10px 0;
+  }
 }
